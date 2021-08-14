@@ -1,0 +1,166 @@
+{ "Foods": [
+    {
+        "category_code":1,
+        "category_name":"Pizza",
+        "items": [
+            {
+                "type": "spicy",
+                "type_code":1,
+                "name":"Deluxe",
+                "image":"pizza1.png",
+                "description": "Chunky chicken ham, chicken ham slices and pineapples finished with a creamy cheese drizzle.",
+                "weight": 150,
+                "weight_unit": "grams",
+                "size": 35,
+                "size_unit": "cm",
+                "price": 46
+            },
+            {
+                "type": "spicy",
+                "type_code":1,
+                "name":"Hawaiian",
+                "image":"pizza2.png",
+                "description": "Succulent chicken ham and pineapple chunks.",
+                "weight": 200,
+                "weight_unit": "grams",
+                "size": 35,
+                "size_unit": "cm",
+                "price": 55
+            },
+            {
+                "type": "spicy",
+                "type_code":1,
+                "name":"Pepperoni",
+                "image":"pizza3.png",
+                "description": "Combining the aromatic flavour of beef pepperoni and 100% mozzarella cheese. Classic treat that’s always a great choice.",
+                "weight": 190,
+                "weight_unit": "grams",
+                "size": 40,
+                "size_unit": "cm",
+                "price": 55
+            },
+            {
+                "type": "vegan",
+                "type_code":2,
+                "name":"Cheesy",
+                "image":"pizza4.png",
+                "description": "Enjoy it with our signature blend of seven wondrous cheeses, topped with herb and spice cream cheese.",
+                "weight": 150,
+                "weight_unit": "grams",
+                "size": 35,
+                "size_unit": "cm",
+                "price": 40
+            }
+        ]
+    },
+    {
+        "category_code":2,
+        "category_name":"Sushi",
+        "items": [
+            {
+                "type": "spicy",
+                "type_code":1,
+                "name":"The egoist",
+                "image":"Sushi1.png",
+                "description": "All our Poke bowls come with the choice of white rice, brown rice, Sushi Shop’s unique Crispy sticky rice or lettuce.",
+                "weight": 150,
+                "weight_unit": "grams",
+                "size": 35,
+                "size_unit": "cm",
+                "price": 46
+            },
+            {
+                "type": "spicy",
+                "type_code":1,
+                "name":"Salmon",
+                "image":"Sushi2.png",
+                "description": "Salmon, avocado, mango, cucumber, edamame beans, tempura.",
+                "weight": 200,
+                "weight_unit": "grams",
+                "size": 35,
+                "size_unit": "cm",
+                "price": 55
+            },
+            {
+                "type": "spicy",
+                "type_code":1,
+                "name":"Tuna",
+                "image":"Sushi3.png",
+                "description": "tuna, avocado, mango, cucumber, edamame beans, tempura, mesclun salad, orange masago, green onion, jalapeño slices, Japanese spices,",
+                "weight": 190,
+                "weight_unit": "grams",
+                "size": 40,
+                "size_unit": "cm",
+                "price": 55
+            },
+            {
+                "type": "vegan",
+                "type_code":2,
+                "name":"Umami",
+                "image":"Sushi4.png",
+                "description": "Enjoy it with our signature blend of seven wondrous cheeses, topped with herb and spice cream cheese.",
+                "weight": 150,
+                "weight_unit": "grams",
+                "size": 35,
+                "size_unit": "cm",
+                "price": 40
+            }
+        ]
+    },
+    {
+        "category_code":3,
+        "category_name":"Drinks",
+        "items": [
+            {
+                "type": "hot",
+                "type_code":1,
+                "name":"Tea-C",
+                "image":"drinks1.png",
+                "description": "All our Poke bowls come with the choice of white rice, brown rice, Sushi Shop’s unique Crispy sticky rice or lettuce.",
+                "weight": 150,
+                "weight_unit": "ml",
+                "size": 35,
+                "size_unit": "cm",
+                "price": 46
+            },
+            {
+                "type": "cold",
+                "type_code":2,
+                "name":"Ice Tea",
+                "image":"drinks2.png",
+                "description": "Salmon, avocado, mango, cucumber, edamame beans, tempura.",
+                "weight": 150,
+                "weight_unit": "ml",
+                "size": 35,
+                "size_unit": "cm",
+                "price": 55
+            },
+            {
+                "type": "spicy",
+                "type_code":1,
+                "name":"Tuna",
+                "image":"Sushi3.png",
+                "description": "tuna, avocado, mango, cucumber, edamame beans, tempura, mesclun salad, orange masago, green onion, jalapeño slices, Japanese spices,",
+                "weight": 190,
+                "weight_unit": "grams",
+                "size": 40,
+                "size_unit": "cm",
+                "price": 55
+            },
+            {
+                "type": "vegan",
+                "type_code":2,
+                "name":"Umami",
+                "image":"Sushi4.png",
+                "description": "Enjoy it with our signature blend of seven wondrous cheeses, topped with herb and spice cream cheese.",
+                "weight": 150,
+                "weight_unit": "grams",
+                "size": 35,
+                "size_unit": "cm",
+                "price": 40
+            }
+        ]
+    }
+    ]
+}
+
