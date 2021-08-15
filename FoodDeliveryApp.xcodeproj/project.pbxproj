@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,6 +12,19 @@
 		5D675E6426C7C59800A61918 /* FoodCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D675E6126C7C59800A61918 /* FoodCollectionViewCell.swift */; };
 		5D675E6526C7C59800A61918 /* FoodCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D675E6226C7C59800A61918 /* FoodCollectionViewCell.xib */; };
 		5D675E6626C7C59800A61918 /* FoodCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D675E6226C7C59800A61918 /* FoodCollectionViewCell.xib */; };
+		5D675E6826C7F7EE00A61918 /* CollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D675E6726C7F7EE00A61918 /* CollectionViewModel.swift */; };
+		5D675E6926C7F7EE00A61918 /* CollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D675E6726C7F7EE00A61918 /* CollectionViewModel.swift */; };
+		5D675E6B26C7F93900A61918 /* PizzaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D675E6A26C7F93900A61918 /* PizzaAPI.swift */; };
+		5D675E6C26C7F93900A61918 /* PizzaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D675E6A26C7F93900A61918 /* PizzaAPI.swift */; };
+		5D675E6E26C7F94D00A61918 /* SushiAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D675E6D26C7F94D00A61918 /* SushiAPI.swift */; };
+		5D675E6F26C7F94D00A61918 /* SushiAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D675E6D26C7F94D00A61918 /* SushiAPI.swift */; };
+		5D675E7126C7F95800A61918 /* DrinksAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D675E7026C7F95800A61918 /* DrinksAPI.swift */; };
+		5D675E7226C7F95800A61918 /* DrinksAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D675E7026C7F95800A61918 /* DrinksAPI.swift */; };
+		5D675E7426C7FDF300A61918 /* FoodsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D675E7326C7FDF300A61918 /* FoodsAPI.swift */; };
+		5D675E7526C7FDF300A61918 /* FoodsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D675E7326C7FDF300A61918 /* FoodsAPI.swift */; };
+		5D675E7826C7FF3B00A61918 /* FoodDashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D675E7726C7FF3B00A61918 /* FoodDashboardViewModel.swift */; };
+		5D675E7A26C8298500A61918 /* FoodsAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D675E7926C8298500A61918 /* FoodsAPIResponse.swift */; };
+		5D675E7C26C8454300A61918 /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D675E7B26C8454300A61918 /* FloatingButton.swift */; };
 		5D7A3B8626BF6EF300B6A98E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7A3B8526BF6EF300B6A98E /* AppDelegate.swift */; };
 		5D7A3B8826BF6EF300B6A98E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7A3B8726BF6EF300B6A98E /* SceneDelegate.swift */; };
 		5D7A3B8A26BF6EF300B6A98E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7A3B8926BF6EF300B6A98E /* ViewController.swift */; };
@@ -57,6 +70,14 @@
 		576B64FF3AF96F7FB0F28FC3 /* Pods-FoodDeliveryApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodDeliveryApp.debug.xcconfig"; path = "Target Support Files/Pods-FoodDeliveryApp/Pods-FoodDeliveryApp.debug.xcconfig"; sourceTree = "<group>"; };
 		5D675E6126C7C59800A61918 /* FoodCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCollectionViewCell.swift; sourceTree = "<group>"; };
 		5D675E6226C7C59800A61918 /* FoodCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodCollectionViewCell.xib; sourceTree = "<group>"; };
+		5D675E6726C7F7EE00A61918 /* CollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewModel.swift; sourceTree = "<group>"; };
+		5D675E6A26C7F93900A61918 /* PizzaAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaAPI.swift; sourceTree = "<group>"; };
+		5D675E6D26C7F94D00A61918 /* SushiAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiAPI.swift; sourceTree = "<group>"; };
+		5D675E7026C7F95800A61918 /* DrinksAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksAPI.swift; sourceTree = "<group>"; };
+		5D675E7326C7FDF300A61918 /* FoodsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodsAPI.swift; sourceTree = "<group>"; };
+		5D675E7726C7FF3B00A61918 /* FoodDashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDashboardViewModel.swift; sourceTree = "<group>"; };
+		5D675E7926C8298500A61918 /* FoodsAPIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodsAPIResponse.swift; sourceTree = "<group>"; };
+		5D675E7B26C8454300A61918 /* FloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
 		5D7A3B8226BF6EF300B6A98E /* FoodDeliveryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDeliveryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D7A3B8526BF6EF300B6A98E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5D7A3B8726BF6EF300B6A98E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +133,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D675E7626C7FF1F00A61918 /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				5D675E6A26C7F93900A61918 /* PizzaAPI.swift */,
+				5D675E6D26C7F94D00A61918 /* SushiAPI.swift */,
+				5D675E7026C7F95800A61918 /* DrinksAPI.swift */,
+				5D675E7326C7FDF300A61918 /* FoodsAPI.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
 		5D7A3B7926BF6EF300B6A98E = {
 			isa = PBXGroup;
 			children = (
@@ -190,6 +222,8 @@
 		5D94FFF026C1600300B49C0A /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				5D675E7626C7FF1F00A61918 /* APIManager */,
+				5D675E7726C7FF3B00A61918 /* FoodDashboardViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -202,6 +236,7 @@
 				5D94FFF926C1619800B49C0A /* ViewController+Extension.swift */,
 				5D675E6126C7C59800A61918 /* FoodCollectionViewCell.swift */,
 				5D675E6226C7C59800A61918 /* FoodCollectionViewCell.xib */,
+				5D675E7B26C8454300A61918 /* FloatingButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -209,6 +244,8 @@
 		5D94FFF226C1601300B49C0A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5D675E6726C7F7EE00A61918 /* CollectionViewModel.swift */,
+				5D675E7926C8298500A61918 /* FoodsAPIResponse.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -255,6 +292,7 @@
 				5D7A3B7E26BF6EF300B6A98E /* Sources */,
 				5D7A3B7F26BF6EF300B6A98E /* Frameworks */,
 				5D7A3B8026BF6EF300B6A98E /* Resources */,
+				9620F889D06F14674C6FC50B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -292,6 +330,7 @@
 				5D7A3B9F26BF6EF400B6A98E /* Sources */,
 				5D7A3BA026BF6EF400B6A98E /* Frameworks */,
 				5D7A3BA126BF6EF400B6A98E /* Resources */,
+				B03B1AEB273AC963C6EDC42E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -421,6 +460,40 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		9620F889D06F14674C6FC50B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodDeliveryApp/Pods-FoodDeliveryApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodDeliveryApp/Pods-FoodDeliveryApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodDeliveryApp/Pods-FoodDeliveryApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B03B1AEB273AC963C6EDC42E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodDeliveryApp-FoodDeliveryAppUITests/Pods-FoodDeliveryApp-FoodDeliveryAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodDeliveryApp-FoodDeliveryAppUITests/Pods-FoodDeliveryApp-FoodDeliveryAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodDeliveryApp-FoodDeliveryAppUITests/Pods-FoodDeliveryApp-FoodDeliveryAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		FE931D8EFBB5BF348DAE341D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -452,12 +525,20 @@
 			files = (
 				5D7A3B8A26BF6EF300B6A98E /* ViewController.swift in Sources */,
 				5D94FFF426C160BB00B49C0A /* FoodInfoCell.swift in Sources */,
+				5D675E6E26C7F94D00A61918 /* SushiAPI.swift in Sources */,
+				5D675E7826C7FF3B00A61918 /* FoodDashboardViewModel.swift in Sources */,
 				5D94FFFA26C1619800B49C0A /* ViewController+Extension.swift in Sources */,
 				5D7A3B8626BF6EF300B6A98E /* AppDelegate.swift in Sources */,
+				5D675E7426C7FDF300A61918 /* FoodsAPI.swift in Sources */,
 				5D94FFF726C1614500B49C0A /* HomeImageSliderView.swift in Sources */,
 				5D7A3B8826BF6EF300B6A98E /* SceneDelegate.swift in Sources */,
+				5D675E7126C7F95800A61918 /* DrinksAPI.swift in Sources */,
+				5D675E6826C7F7EE00A61918 /* CollectionViewModel.swift in Sources */,
+				5D675E7A26C8298500A61918 /* FoodsAPIResponse.swift in Sources */,
+				5D675E6B26C7F93900A61918 /* PizzaAPI.swift in Sources */,
 				5D675E6326C7C59800A61918 /* FoodCollectionViewCell.swift in Sources */,
 				5D94FFFE26C1622E00B49C0A /* CommonConstant.swift in Sources */,
+				5D675E7C26C8454300A61918 /* FloatingButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,11 +547,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D94FFFB26C1619800B49C0A /* ViewController+Extension.swift in Sources */,
+				5D675E6C26C7F93900A61918 /* PizzaAPI.swift in Sources */,
+				5D675E7526C7FDF300A61918 /* FoodsAPI.swift in Sources */,
 				5D7A3B9D26BF6EF400B6A98E /* FoodDeliveryAppTests.swift in Sources */,
+				5D675E6926C7F7EE00A61918 /* CollectionViewModel.swift in Sources */,
+				5D675E6F26C7F94D00A61918 /* SushiAPI.swift in Sources */,
 				5D94FFFF26C1622E00B49C0A /* CommonConstant.swift in Sources */,
 				5D94FFF526C160BB00B49C0A /* FoodInfoCell.swift in Sources */,
 				5D675E6426C7C59800A61918 /* FoodCollectionViewCell.swift in Sources */,
 				5D94FFF826C1614500B49C0A /* HomeImageSliderView.swift in Sources */,
+				5D675E7226C7F95800A61918 /* DrinksAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

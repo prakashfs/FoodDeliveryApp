@@ -7,16 +7,6 @@
 
 import UIKit
 
-struct FoodCellModel {
-    var image: UIImage?
-    var imageName: String?
-    var name: String?
-    var details: String?
-    var sizeInGrams: Int?
-    var sizeInCm: Int?
-    var price: Double?
-}
-
 class FoodInfoCell: UICollectionViewCell {
     
     var foodImage: UIImageView {

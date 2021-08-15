@@ -14,6 +14,8 @@ class FoodCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var foodItemDescription: UILabel!
     @IBOutlet weak var foodItemSize: UILabel!
     @IBOutlet weak var addToCartButton: UIButton!
+    var delegate: ProductUpdateDelegate?
+    
     
     var model: FoodCellModel? {
         didSet {
@@ -23,7 +25,7 @@ class FoodCollectionViewCell: UICollectionViewCell {
             if let inGram = model?.sizeInGrams, let inCM = model?.sizeInCm {
                 foodItemSize.text = "\(inGram) grams, \(inCM) cm"
             }
-            addToCartButton.setTitle("$ \(model?.price ?? 0 )", for: .normal)
+            addToCartButton.setTitle("$ \(model?.price?.stringWithoutZeroFraction ?? "0")", for: .normal)
         }
     }
    
@@ -33,6 +35,13 @@ class FoodCollectionViewCell: UICollectionViewCell {
         self.contentView.translatesAutoresizingMaskIntoConstraints = false
         addShaddowEffect()
         addRoundedRadius()
+        self.addToCartButton.addTarget(self, action: #selector(addProductToCart), for: .touchUpInside)
+    }
+    
+    @objc func addProductToCart() {
+        if delegate != nil {
+            delegate?.addProduct()
+        }
     }
     
     fileprivate func addShaddowEffect() {

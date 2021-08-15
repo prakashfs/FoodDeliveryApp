@@ -9,8 +9,13 @@ import Foundation
 
 struct Constant {
     static let collectionViewCellIdentifier = "FoodCollectionViewCell"
-//    static let collectionViewCellIdentifier = "foodInfoCell"
     static let collectionViewHeaderIdentifier = "foodHeaderCell"
     
+}
+
+extension Double {
+    var stringWithoutZeroFraction: String {
+        return truncatingRemainder(dividingBy: 1) == 0 ? String(format: "%.0f", self) : String(self)
+    }
 }
 
