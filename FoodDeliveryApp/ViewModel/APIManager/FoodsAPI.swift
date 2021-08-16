@@ -17,6 +17,8 @@ class FoodsAPI {
     
     func loadFoods(completion: @escaping (APIResponse) -> Void) {
         
+        //For demo purpose fetching data from local JSON.
+        //In Real time API call over network goes here.
         DispatchQueue.global().asyncAfter(deadline: .now() + 0.5) {
             
             if let responseData = self.readMockResponse() {

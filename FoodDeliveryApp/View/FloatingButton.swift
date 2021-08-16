@@ -90,7 +90,7 @@ class FloatingButton: UIButton {
     }
     
     func badgeCount() -> Int {
-        guard let badgeText = badgeLabel.text, badgeText.isEmpty else { return 0 }
+        guard let badgeText = badgeLabel.text, !badgeText.isEmpty else { return 0 }
         return Int(badgeText) ?? 0
     }
     
