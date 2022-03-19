@@ -44,6 +44,13 @@ class FloatingButton: UIButton {
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.updateUI()
+        badgeLabel.textColor = badgeTextColor
+        badgeLabel.backgroundColor = badgeBackgroundColor
+        badgeLabel.font = badgeFont
+        badgeLabel.textAlignment = .center
+        
+        badgeLabel.layer.masksToBounds = true
+        addSubview(badgeLabel)
         self.addBadgeToButon(badge: nil)
     }
     
@@ -59,11 +66,13 @@ class FloatingButton: UIButton {
     func addBadgeToButon(badge: Int?) {
         guard let badge = badge else { return }
         badgeLabel.text = "\(badge)"
-        badgeLabel.textColor = badgeTextColor
-        badgeLabel.backgroundColor = badgeBackgroundColor
-        badgeLabel.font = badgeFont
         badgeLabel.sizeToFit()
-        badgeLabel.textAlignment = .center
+        self.updateBadgeLabelFrame()
+        badgeLabel.layer.cornerRadius = badgeLabel.frame.height/2
+        badgeLabel.isHidden = badge > 0 ? false : true
+    }
+    
+    func updateBadgeLabelFrame() {
         let badgeSize = badgeLabel.frame.size
         
         let height = max(18, Double(badgeSize.height) + 5.0)
@@ -83,10 +92,6 @@ class FloatingButton: UIButton {
             badgeLabel.frame = CGRect(x: x, y: y, width: CGFloat(width), height: CGFloat(height))
         }
         
-        badgeLabel.layer.cornerRadius = badgeLabel.frame.height/2
-        badgeLabel.layer.masksToBounds = true
-        addSubview(badgeLabel)
-        badgeLabel.isHidden = badge > 0 ? false : true
     }
     
     func badgeCount() -> Int {
