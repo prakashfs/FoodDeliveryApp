@@ -37,7 +37,10 @@ class ViewController: UIViewController {
     }
     
     @objc func openCart() {
-        //TODO open cart view controller
+        let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
+        let cartViewController = storyboard.instantiateViewController(withIdentifier: "CartViewController")
+        self.present(cartViewController, animated: true, completion: nil)
+        
     }
     
     func initObserver() {
