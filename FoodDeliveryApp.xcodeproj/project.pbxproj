@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0B4AD6659152C9C0B3B9BEA3 /* Pods_FoodDeliveryApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 549FF7F9E1FF2E46DCCC4C77 /* Pods_FoodDeliveryApp.framework */; };
+		5D30C483280F20F400A50548 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D30C482280F20F400A50548 /* CartViewController.swift */; };
 		5D675E6326C7C59800A61918 /* FoodCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D675E6126C7C59800A61918 /* FoodCollectionViewCell.swift */; };
 		5D675E6426C7C59800A61918 /* FoodCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D675E6126C7C59800A61918 /* FoodCollectionViewCell.swift */; };
 		5D675E6526C7C59800A61918 /* FoodCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D675E6226C7C59800A61918 /* FoodCollectionViewCell.xib */; };
@@ -68,6 +69,7 @@
 		3292B744025C3E1FB402E641 /* Pods-FoodDeliveryAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodDeliveryAppTests.release.xcconfig"; path = "Target Support Files/Pods-FoodDeliveryAppTests/Pods-FoodDeliveryAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		549FF7F9E1FF2E46DCCC4C77 /* Pods_FoodDeliveryApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodDeliveryApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		576B64FF3AF96F7FB0F28FC3 /* Pods-FoodDeliveryApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodDeliveryApp.debug.xcconfig"; path = "Target Support Files/Pods-FoodDeliveryApp/Pods-FoodDeliveryApp.debug.xcconfig"; sourceTree = "<group>"; };
+		5D30C482280F20F400A50548 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
 		5D675E6126C7C59800A61918 /* FoodCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCollectionViewCell.swift; sourceTree = "<group>"; };
 		5D675E6226C7C59800A61918 /* FoodCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodCollectionViewCell.xib; sourceTree = "<group>"; };
 		5D675E6726C7F7EE00A61918 /* CollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewModel.swift; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 				5D7A3B8E26BF6EF400B6A98E /* Assets.xcassets */,
 				5D7A3B9026BF6EF400B6A98E /* LaunchScreen.storyboard */,
 				5D7A3B9326BF6EF400B6A98E /* Info.plist */,
+				5D30C482280F20F400A50548 /* CartViewController.swift */,
 			);
 			path = FoodDeliveryApp;
 			sourceTree = "<group>";
@@ -536,6 +539,7 @@
 				5D675E6826C7F7EE00A61918 /* CollectionViewModel.swift in Sources */,
 				5D675E7A26C8298500A61918 /* FoodsAPIResponse.swift in Sources */,
 				5D675E6B26C7F93900A61918 /* PizzaAPI.swift in Sources */,
+				5D30C483280F20F400A50548 /* CartViewController.swift in Sources */,
 				5D675E6326C7C59800A61918 /* FoodCollectionViewCell.swift in Sources */,
 				5D94FFFE26C1622E00B49C0A /* CommonConstant.swift in Sources */,
 				5D675E7C26C8454300A61918 /* FloatingButton.swift in Sources */,
